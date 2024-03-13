@@ -10025,3 +10025,15 @@ h6,
 .remtcont p,.Latest_Article .card-text{font-size: 20px;color: #333333;font-weight: 400;}
 .remtcont p{font-size: 12px;color: #333333;font-weight: 400;}
 .remotepart2 img{width: 40px;}
+
+
+
+.founderDesignation{
+  font-size: 12px;
+  color: white;
+}
+
+
+.blogStart a.blog-overlay{
+  border: 1px solid lightgoldenrodyellow;
+}
