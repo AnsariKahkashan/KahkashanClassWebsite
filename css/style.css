@@ -156,11 +156,14 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
-
 a:hover {
-  color: #b34700;
+  color: transparent; /* Set the text color to transparent */
+  background-image: linear-gradient(90deg, rgba(18,141,136,1) 0%, rgba(45,72,157,1) 100%);
+  -webkit-background-clip: text; /* Clip the background to the text */
+  background-clip: text; /* Clip the background to the text */
   text-decoration: underline;
 }
+
 
 a:not([href]):not([class]) {
   color: inherit;
@@ -1547,6 +1550,10 @@ pre code {
 .table thead th {
   vertical-align: bottom;
   border-bottom: 2px solid #dee2e6;
+  font-size: 12px;
+  padding: 1rem;
+  color: white;
+  background: linear-gradient(90deg, rgba(18,141,136,1) 0%, rgba(45,72,157,1) 100%);;
 }
 
 .table tbody + tbody {
@@ -1560,6 +1567,7 @@ pre code {
 
 .table-bordered {
   border: 1px solid #dee2e6;
+  box-shadow: 0 3px 35px -8px #aaa;
 }
 
 .table-bordered th,
@@ -10036,4 +10044,16 @@ h6,
 
 .blogStart a.blog-overlay{
   border: 1px solid lightgoldenrodyellow;
+}
+
+.navbarBottom{
+  border-bottom: 1px solid lightblue;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.schoolsectionCard{
+  border: 1px solid #6c6a7426;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Example shadow values */
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px 
 }
