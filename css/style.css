@@ -1553,7 +1553,7 @@ pre code {
   font-size: 12px;
   padding: 1rem;
   color: white;
-  background: linear-gradient(90deg, rgba(18,141,136,1) 0%, rgba(45,72,157,1) 100%);;
+  background: linear-gradient(90deg, rgba(18,141,136,1) 0%, rgba(45,72,157,1) 100%);
 }
 
 .table tbody + tbody {
@@ -1794,7 +1794,7 @@ pre code {
 }
 
 .table .thead-light th {
-  color: #495057;
+  color: #fff;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
@@ -10056,4 +10056,17 @@ h6,
    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Example shadow values */
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px 
+}
+
+.highlightsCommerce p{
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.heightHeading{
+  height: 80px;
+}
+
+.scienceCourseDescrip p{
+  font-size: 15px;
 }
