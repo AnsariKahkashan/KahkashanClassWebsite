@@ -1,4 +1,5 @@
 // Function to set a cookie with a specific name, value, and expiry date
+
 function setCookie(cookieName, cookieValue, expiryDays) {
     var d = new Date();
     d.setTime(d.getTime() + (expiryDays * 24 * 60 * 60 * 1000));

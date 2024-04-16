@@ -10074,7 +10074,9 @@ h6,
 
 
 
-
+.pointer{
+  cursor: pointer;
+}
 
 
 
