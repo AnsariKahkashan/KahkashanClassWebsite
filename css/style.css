@@ -10125,3 +10125,11 @@ h6,
 ::-webkit-scrollbar-thumb:hover {
   background-color: #ec6a1b; /* color of the scrollbar handle when hovered */
 }
+
+
+
+/* ABOUT US  */
+
+.outerGraidientCard{
+  background: linear-gradient(90deg, rgba(18,141,136,1) 0%, rgba(45,72,157,1) 100%);
+}
