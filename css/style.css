@@ -10133,3 +10133,26 @@ h6,
 .outerGraidientCard{
   background: linear-gradient(90deg, rgba(18,141,136,1) 0%, rgba(45,72,157,1) 100%);
 }
+
+.aboutStart .aboutContacts i{
+  font-size: 16px;
+  color: white;
+}
+
+.aboutStart .aboutContacts{
+  width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(18, 141, 136, 1) 0%, rgba(45, 72, 157, 1) 100%) !important;
+}
+
+/* Responsive width for the popup */
+@media (max-width: 768px) {
+  .popup-width {
+      width: 100%;
+      max-width: 100%;
+  }
+}
